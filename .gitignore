@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB
+vectordb/
+
+# Knowledge base backup
+conocimiento_backup.txt

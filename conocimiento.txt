@@ -1,0 +1,409 @@
+# PERLA SOLUTIONS - INFORMACIÓN COMPLETA
+
+## Identidad del Negocio
+- Nombre: Perla Solutions
+- Eslogan: Tecnología que impulsa tu negocio
+- Ubicación: Cienfuegos, Cuba (base principal). Trabajo 100% remoto disponible para toda Cuba y el extranjero.
+- Tipo de empresa: Tecnología y desarrollo de software
+- Descripción: Empresa joven formada por programadores y diseñadores con experiencia real. Ayudamos a negocios locales a crecer mediante soluciones digitales, páginas web y automatización con Inteligencia Artificial. Trabajamos de forma cercana, explicando cada paso en lenguaje simple, sin tecnicismos, porque entendemos que la mayoría de los dueños de negocios no son técnicos.
+- Alcance geográfico: Cienfuegos, toda Cuba y clientes internacionales. La ubicación nunca es una barrera.
+
+## Misión, Visión y Valores
+- Misión: Poner la tecnología al alcance de todos los negocios, sin importar su tamaño, para que puedan crecer, organizarse mejor y ofrecer un servicio de mayor calidad.
+- Visión: Convertirse en el aliado tecnológico de referencia en Cienfuegos y Cuba, reconocidos por la calidad, honestidad y resultados tangibles.
+- Valores: Honestidad, Cercanía, Calidad, Innovación, Compromiso.
+- Filosofía de trabajo: "No vendemos software. Vendemos soluciones." Nunca se ofrece lo más caro, sino lo que realmente tiene sentido para cada caso.
+
+## Horarios de Atención
+- Lunes a Viernes: 9:00 AM - 6:00 PM (hora Cuba)
+- Sábados: Solo consultas urgentes para clientes con proyectos activos.
+- Domingos y feriados: Cerrado.
+- Soporte de emergencia fuera de horario: Disponible solo para clientes con plan de mantenimiento activo que incluya ese nivel de cobertura (para caídas críticas del sistema).
+- Nota sobre Cuba: Los cronogramas incorporan márgenes de contingencia razonables para absorber situaciones como cortes eléctricos o problemas de conectividad. Si ocurren circunstancias excepcionales, se comunica con total transparencia y se ajustan los plazos de mutuo acuerdo, sin cargos adicionales.
+
+## Información de Contacto
+- WhatsApp principal: +53 58521602
+- Atención presencial: Disponible en Cienfuegos.
+- Videollamadas: Google Meet, Zoom o WhatsApp según lo que el cliente tenga disponible. Duración habitual: 30 a 60 minutos.
+- Correo electrónico: Se obtiene a través del formulario de contacto del sitio web.
+- Canales oficiales de soporte: WhatsApp (comunicación rápida y seguimiento diario) y correo electrónico (documentos formales, propuestas y contratos). Para revisiones importantes: videollamada.
+
+
+## Servicios y Precios
+
+*Nota: Los precios son personalizados según el proyecto. Se ofrece una consulta inicial gratuita y sin compromiso para entregar una propuesta detallada con precio exacto, plazos y alcance. No se cobra nada sin conocimiento y aprobación previa del cliente. Se tienen rangos de referencia por tipo de servicio, pero cada proyecto se cotiza individualmente porque el alcance varía.*
+
+---
+
+### 🌐 Presencia Digital
+*Creamos tu presencia online profesional para que tus clientes te encuentren fácilmente.*
+
+1. **Página Web Profesional**
+   - Descripción: Página web moderna, atractiva y adaptada a celulares. Tus clientes te encuentran fácil y conocen todo sobre tu negocio.
+   - Incluye: diseño personalizado con colores y logo del negocio, secciones (inicio, servicios, contacto), adaptable a celulares y tablets, formulario de contacto, botón de WhatsApp, velocidad de carga optimizada.
+   - Beneficio clave: Tu negocio visible en internet todo el día, sin que tengas que hacer nada.
+   - Plazo estimado: 2 a 4 semanas.
+
+2. **Landing Page (Página de Aterrizaje)**
+   - Descripción: Página única con un solo objetivo claro: lograr que el visitante actúe (llamar, escribir, comprar, reservar). Ideal para promociones o servicios específicos.
+   - Incluye: diseño llamativo y persuasivo, mensaje claro al cliente ideal, botones de acción bien ubicados, formulario de captura de clientes potenciales, compatible con redes sociales y campañas de publicidad.
+   - Beneficio clave: Más clientes potenciales con una sola página diseñada para convencer.
+   - Plazo estimado: 1 a 2 semanas (5 a 7 días hábiles en casos estándar).
+   - Diferencia con la Página Web Profesional: La landing page es una sola página con objetivo muy concreto (una acción). La web profesional tiene varias secciones y funciona como presencia digital permanente del negocio.
+
+3. **Catálogo Digital**
+   - Descripción: Versión digital del catálogo de productos, siempre actualizado, fácil de compartir por WhatsApp o redes. Sin costos de impresión.
+   - Incluye: fotos y descripciones de cada producto, precios y disponibilidad actualizables, fácil de compartir desde el celular, diseño profesional, posibilidad de incluir ofertas y promociones.
+   - Beneficio clave: Tus clientes siempre tienen acceso a lo que ofreces, sin gastar en papel.
+
+4. **Menú Digital QR**
+   - Descripción: Para restaurantes. El cliente escanea un código QR y ve el menú completo con fotos y precios. Adiós a menús sucios o desactualizados.
+   - Incluye: menú digital con fotos de platos, actualizable en cualquier momento, código QR imprimible para mesas, compatible con cualquier celular, posibilidad de incluir promociones del día.
+   - Beneficio clave: Experiencia más moderna para los clientes, menos trabajo para el equipo.
+   - Nota técnica: Requiere conexión a internet para cargarse. Se puede implementar versión con capacidades offline básicas (PWA) para que el cliente siga viendo el menú si pierde la conexión momentáneamente tras haberlo cargado.
+
+5. **Diseño de Marca e Identidad Visual**
+   - Descripción: Identidad visual completa y profesional para el negocio, desde el logo hasta las aplicaciones visuales. Pensado para transmitir confianza y destacar frente a la competencia.
+   - Incluye: diseño de logo profesional y memorable, paleta de colores corporativa, tipografías y estilos visuales, mockups de aplicaciones (papelería, redes, web), manual de identidad visual básico, versiones del logo para diferentes usos.
+   - Beneficio clave: Una imagen profesional que genera confianza y hace que el negocio sea memorable.
+
+6. **Software a Medida**
+   - Descripción: Aplicaciones web personalizadas que se ajustan perfectamente a los procesos del negocio. No se adapta el negocio a software genérico; se crea la herramienta que la empresa realmente necesita.
+   - Incluye: análisis de requerimientos y procesos del negocio, desarrollo de aplicación web personalizada, panel de administración, base de datos diseñada para las necesidades del cliente, capacitación al equipo, soporte técnico y mantenimiento, arquitectura escalable.
+   - Beneficio clave: Una herramienta única que automatiza los procesos exactamente como se necesitan, sin pagar por funciones que no se usan.
+   - Plazo estimado: 4 a 12 semanas (1 a 3 meses según complejidad).
+   - Tipo de app: Principalmente aplicaciones web accesibles desde el navegador. También se pueden desarrollar Progressive Web Apps (PWA) que se instalan como app en el celular. Para apps nativas puras de iOS o Android se evalúa según presupuesto y requerimientos.
+
+---
+
+### 🤖 Automatización e Inteligencia Artificial
+*Automatiza tareas y mejora la atención al cliente con las últimas tecnologías de IA.*
+
+7. **Chatbot con IA**
+   - Descripción: Asistente virtual que responde preguntas de clientes automáticamente por WhatsApp, web o redes sociales, las 24 horas.
+   - Incluye: respuestas a preguntas frecuentes, información sobre horarios, precios y servicios, captura de datos de clientes interesados, disponible 24/7, integración con WhatsApp, Instagram o web.
+   - Beneficio clave: Ningún cliente sin respuesta, aunque el negocio esté ocupado o fuera de horario.
+   - Aclaración importante: El chatbot NO reemplaza totalmente a una persona. Gestiona automáticamente lo repetitivo y captura datos; para situaciones complejas o personales, notifica al dueño para que continúe la conversación. Es un asistente que libera tiempo, no un sustituto total.
+   - Modelos de IA usados: Claude (Anthropic) o GPT (OpenAI) según el caso de uso y presupuesto. Se entrena específicamente con la información del negocio del cliente.
+   - Idioma: Funciona perfectamente en español, incluyendo el español cubano y sus modismos. Durante la configuración se adapta al vocabulario y tono del negocio.
+   - Integración WhatsApp: Puede trabajar con la API oficial de WhatsApp Business (Meta), más estable y segura, o con soluciones alternativas de menor costo para negocios que recién empiezan. Las diferencias y costos se explican en la propuesta.
+   - Plazo estimado: 1 a 3 meses (proyectos avanzados).
+
+8. **Respuestas Automáticas**
+   - Descripción: Cuando alguien escribe, recibe al instante una respuesta profesional con información útil mientras el negocio se organiza para atenderle.
+   - Incluye: mensaje de bienvenida automático y profesional, información básica del negocio enviada al instante, preguntas de filtro para entender qué necesita el cliente, notificación inmediata al dueño o encargado, personalizable con el tono del negocio.
+   - Beneficio clave: Ningún cliente espera en silencio. Respuesta rápida y profesional siempre.
+
+9. **Asistente IA Interno**
+   - Descripción: Herramienta interna para el equipo que ayuda a redactar, responder dudas, crear documentos y generar reportes.
+   - Incluye: redacción automática de mensajes, correos y documentos, respuestas rápidas a dudas internas del equipo, generación de resúmenes e informes, adaptado al vocabulario del negocio, accesible desde cualquier dispositivo.
+   - Beneficio clave: El equipo ahorra horas cada semana en tareas repetitivas.
+
+10. **Generación de Contenido para Redes Sociales**
+    - Descripción: La IA genera publicaciones para redes sociales, descripciones de productos y textos de promociones adaptados a la marca del negocio.
+    - Incluye: textos de publicaciones para redes, descripciones de productos o servicios, adaptado al estilo y tono de la marca, ahorro de tiempo al equipo de marketing.
+    - Beneficio clave: Presencia activa en redes sin invertir horas escribiendo.
+
+---
+
+### 📋 Organización y Gestión Interna
+*Optimiza los procesos internos del negocio con sistemas digitales eficientes.*
+
+11. **Sistema de Turnos y Reservas Online**
+    - Descripción: Los clientes reservan su turno o cita solos desde la web o WhatsApp, eligiendo día y hora disponible. Sin llamadas, sin confusiones.
+    - Incluye: calendario de disponibilidad en línea, el cliente elige su turno sin necesidad de llamar, notificación automática al negocio y al cliente, recordatorios automáticos para evitar ausencias, historial de reservas disponible.
+    - Beneficio clave: Menos tiempo al teléfono, menos confusiones, clientes más satisfechos.
+
+12. **Panel de Control del Negocio**
+    - Descripción: Tablero visual donde se ven en tiempo real ventas, pedidos, productos más vendidos y rendimiento del equipo.
+    - Incluye: vista general del negocio en tiempo real, gráficos simples de ventas y rendimiento, alertas importantes destacadas, accesible desde computadora y celular, personalizable según las necesidades del negocio.
+    - Beneficio clave: Decisiones con información real y actualizada, sin depender de papeles.
+    - Nota técnica: Para datos que deben actualizarse al instante (pedidos entrantes, notificaciones críticas) se usan WebSockets o Server-Sent Events. Para métricas generales se usa polling optimizado.
+
+13. **Gestión de Inventario**
+    - Descripción: Control de stock con entradas y salidas, alertas de producto agotado y consulta de historial.
+    - Incluye: registro de productos con cantidades y precios, alertas automáticas cuando el stock está bajo, historial de entradas y salidas, reportes de inventario, fácil de actualizar desde cualquier dispositivo.
+    - Beneficio clave: Nunca más quedarse sin stock en el momento menos oportuno.
+
+14. **Sistema de Gestión de Pedidos**
+    - Descripción: Organiza todos los pedidos de forma clara: quién pidió, estado, quién lo atiende. Adiós a los papelitos.
+    - Incluye: registro de cada pedido con todos los detalles, estados (pendiente, en proceso, entregado), asignación de pedidos a miembros del equipo, notificaciones automáticas al cliente sobre su pedido, historial de pedidos consultable en cualquier momento.
+    - Beneficio clave: Cero pedidos perdidos, cero confusiones, clientes más contentos.
+
+---
+
+### 📣 Marketing y Fidelización de Clientes
+*Atrae más clientes y fideliza a los que ya tienes con herramientas digitales inteligentes.*
+
+15. **Sistema de Reseñas y Testimonios**
+    - Descripción: Invita automáticamente a clientes satisfechos a dejar reseñas y las muestra de forma atractiva en la web.
+    - Incluye: solicitud automática de reseñas tras compra o servicio, visualización de testimonios en la página web, notificación cuando llega una nueva reseña, filtro para destacar las mejores valoraciones, integración con plataformas de reseñas populares.
+    - Beneficio clave: Nuevos clientes convencidos por las experiencias reales de los que ya eligieron el negocio.
+
+16. **Programa de Fidelidad Digital**
+    - Descripción: Tarjeta de sellos digital para que el cliente acumule puntos y los canjee por descuentos o beneficios. Todo desde el celular.
+    - Incluye: registro de puntos o sellos por cada compra, el cliente consulta su saldo desde el celular, canje de beneficios fácil y automático, notificaciones de recompensas disponibles, panel de control con estadísticas de participación.
+    - Beneficio clave: Clientes que vuelven más seguido y se sienten valorados.
+
+17. **Envío de Promociones por WhatsApp o Correo**
+    - Descripción: Envía ofertas y novedades directamente al celular de los clientes de forma organizada y personalizada.
+    - Incluye: envío masivo de mensajes a la base de clientes, segmentación por tipo de cliente o intereses, mensajes personalizados con el nombre del cliente, programación de envíos en fechas especiales, reportes de cuántos clientes leyeron el mensaje.
+    - Beneficio clave: Los clientes siempre informados de las ofertas, sin depender de que ellos busquen el negocio.
+
+18. **Formulario Inteligente de Captación**
+    - Descripción: Captura automáticamente los datos de personas interesadas y notifica al instante para contactarlas.
+    - Incluye: formulario personalizado con las preguntas necesarias, notificación inmediata al recibir un nuevo contacto, datos guardados organizados automáticamente, respuesta automática al cliente confirmando recepción, integración con la base de datos de clientes.
+    - Beneficio clave: Ningún cliente potencial se va sin que el negocio sepa que estuvo interesado.
+
+---
+
+### 📊 Reportes y Análisis
+
+19. **Reportes Automáticos de Ventas y Rendimiento**
+    - Descripción: Resúmenes periódicos de ventas y rendimiento enviados directamente a WhatsApp o correo.
+    - Incluye: configuración de métricas clave del negocio, envío automático programado (diario, semanal o mensual), formato claro y legible desde el celular.
+    - Beneficio clave: Siempre informado del rendimiento del negocio sin tener que buscarlo activamente.
+
+20. **Analítica Web (Google Analytics y alternativas)**
+    - Descripción: Integración de herramientas de analítica para conocer el tráfico, comportamiento de usuarios y rendimiento del sitio.
+    - Herramientas disponibles: Google Analytics 4 (estándar), Plausible o Matomo (alternativas orientadas a privacidad).
+    - El acceso es permanentemente del cliente, no depende de Perla Solutions para consultar los datos.
+    - Incluye configuración de perfil de Google Business Profile (antes Google My Business) para aparecer en Google Maps y búsquedas locales.
+
+
+## Medios de Pago
+- Efectivo (solo en Cuba)
+- Transferencia bancaria
+- Criptomonedas (principalmente USDT, para clientes internacionales o preferencia local)
+- Para clientes internacionales: dólares o criptomonedas estables coordinadas según conveniencia de ambas partes.
+- Se emite contrato formal y comprobante de cada pago recibido, independientemente del método elegido.
+
+## Esquema de Pagos
+- Proyectos estándar: 50% anticipo al inicio → 50% contra entrega final aprobada por el cliente.
+- Proyectos largos y complejos: 40% inicio → 30% en hito de avance → 30% entrega final.
+- Pago 100% contra entrega: No se ofrece esta modalidad, porque implicaría que Perla Solutions asuma todo el riesgo económico. El esquema 50/50 protege al cliente (paga el resto solo al aprobar el resultado) y permite trabajar con la seguridad necesaria.
+- Atrasos en pagos: Si hay un atraso, se pausa el trabajo. Se maneja con comunicación directa y buena fe. Lo más importante es avisar antes de que ocurra para coordinar una solución.
+- Clientes con historial de proyectos: Se pueden evaluar condiciones especiales.
+- Nota: El anticipo cubre el trabajo ya realizado y el tiempo reservado del equipo. Si el cliente cancela el proyecto, el anticipo no es reembolsable; el trabajo completado se entrega al cliente en el estado en que se encuentre.
+
+
+## Proceso de Trabajo Paso a Paso
+1. **Consulta inicial gratuita**: En persona (Cienfuegos) o videollamada. Se analiza el negocio, objetivos y necesidades. Sin tecnicismos, sin presiones. Duración: 30 a 60 minutos.
+2. **Propuesta detallada**: Se entrega propuesta con alcance exacto del trabajo, plazos estimados, precio total y condiciones. Sin compromiso. Sin letra pequeña. Sin costos ocultos.
+3. **Aprobación y contrato**: Si el cliente está de acuerdo, se firma un contrato simple que especifica todo. Se realiza el pago del anticipo.
+4. **Desarrollo con entregas parciales**: Trabajo en ciclos cortos. Se muestran avances reales para revisión y aprobación antes de continuar. Comunicación constante por WhatsApp.
+5. **Entorno de pruebas (staging)**: Antes del despliegue final, se comparte el proyecto completo en un entorno de pruebas para revisión con calma.
+6. **Aprobación y despliegue**: Con la aprobación del cliente, se procede al despliegue en producción. Perla Solutions se encarga de todo el proceso técnico (servidor, dominio, SSL, pruebas finales).
+7. **Pago del saldo restante**: Al aprobar el resultado final.
+8. **Entrega oficial**: Acceso a todos los sistemas, repositorio de código, documentación y sesión de capacitación.
+9. **Soporte gratuito de 2 meses**: Comienza tras la entrega oficial.
+
+## Comunicación Durante el Proyecto
+- Canal principal: WhatsApp para seguimiento diario y comunicación rápida.
+- Canal formal: Correo electrónico para documentos, propuestas y acuerdos escritos.
+- Revisiones importantes: Videollamada (Google Meet, Zoom o WhatsApp).
+- El cliente siempre tiene un punto de contacto directo. No habla con bots ni con intermediarios.
+- Frecuencia de reuniones: Para proyectos cortos (1-2 semanas), seguimiento por WhatsApp. Para proyectos más largos, reuniones semanales o quincenales según acuerdo.
+- Metodología: Metodologías ágiles adaptadas a la escala del proyecto. Ciclos de 1 a 2 semanas con entregables parciales concretos. Tableros Kanban para seguimiento de tareas con visibilidad del estado del proyecto.
+- Punto de contacto oficial: Se acuerda desde el inicio quién tiene autoridad para tomar decisiones y dar aprobaciones (puede ser el dueño, un gerente o un encargado de confianza). Se recomienda una sola persona para evitar instrucciones contradictorias.
+
+
+## Plazos de Entrega por Tipo de Proyecto
+- Landing Page: 5 a 7 días hábiles.
+- Página Web Profesional: 2 a 4 semanas.
+- Chatbot con IA: 1 a 3 meses (proyectos avanzados).
+- Software a Medida y Sistemas de Gestión: 1 a 3 meses.
+- Los plazos se especifican en cada propuesta. Incluyen márgenes de contingencia para la realidad cubana (cortes eléctricos, conectividad).
+- Si el cliente se atrasa en entregar materiales o feedback, el plazo se ajusta proporcionalmente. Se recomienda avisar con anticipación.
+- Aceleración urgente: Posible en algunos casos según carga del equipo, puede implicar costo adicional. Comunicarlo lo antes posible.
+
+
+## Revisiones y Cambios
+- Todo proyecto incluye al menos 2 o 3 rondas de revisión durante el desarrollo y una ronda final antes del despliegue.
+- Ajustes pequeños dentro del alcance original: se absorben sin costo adicional.
+- Cambios significativos (nuevas funcionalidades, rediseño de secciones importantes, cambio de requisitos clave): se elabora un ajuste al presupuesto y plazo que el cliente debe aprobar antes de continuar.
+- Antes de desarrollar, siempre se comparten wireframes o mockups del diseño para aprobación del cliente, para evitar sorpresas al final.
+- Si no convence el diseño presentado: se ajusta dentro de las rondas de revisión incluidas. Un cambio total de concepto o dirección artística se conversa abiertamente.
+
+
+## Garantía y Soporte Post-Entrega
+
+### Soporte Gratuito (2 meses tras la entrega)
+- Duración: 2 meses a partir de la entrega oficial del proyecto.
+- Qué cubre: corrección de errores funcionales (bugs), comportamientos inesperados del sistema, ajustes menores derivados directamente del trabajo entregado.
+- Qué NO cubre: cambios de diseño, nuevas funcionalidades fuera del alcance original, cambios en los requisitos, problemas causados por modificaciones de terceros o del propio cliente sin supervisión.
+- Tiempo de respuesta para errores críticos (que impiden el funcionamiento): máximo 4 horas hábiles.
+- Tiempo de respuesta para incidencias menores: máximo 24 horas hábiles.
+- Resolución de bugs críticos: objetivo de máximo 8 horas hábiles.
+
+### Plan de Mantenimiento Mensual (opcional, tras el soporte gratuito)
+- Qué incluye: monitoreo de disponibilidad del sitio o aplicación, actualizaciones de seguridad de dependencias (proceso controlado: probar → desplegar), revisión y corrección de errores menores, copias de seguridad periódicas, soporte técnico en horario de atención.
+- Qué NO incluye por defecto: cambios de contenido, nuevas funcionalidades, modificaciones al diseño (se evalúan como trabajo adicional).
+- Costo: varía según la complejidad del proyecto. Se presenta la propuesta al acercarse el fin de los 2 meses de soporte gratuito.
+- Cambio de precio: se avisa con al menos 30 días de anticipación. El cliente puede decidir libremente si continuar.
+- Para proyectos empresariales: se puede establecer un SLA (Acuerdo de Nivel de Servicio) formal con tiempos garantizados contractualmente.
+- Soporte de emergencia fuera de horario: disponible solo en planes de mantenimiento que incluyan este nivel de cobertura.
+- Monitoreo de uptime: incluido en planes de mantenimiento. Si el sitio deja de responder, se recibe alerta inmediata y se actúa sin que el cliente tenga que avisar.
+
+### Bolsa de Horas (alternativa al plan mensual)
+- Para clientes que no necesitan soporte constante: bolsas de horas de soporte que se usan según necesidad.
+- Se recomienda la opción más adecuada según el uso del sistema.
+
+### Después del soporte gratuito sin mantenimiento contratado
+- El sistema sigue funcionando con normalidad. No depende de un plan activo para funcionar.
+- Cualquier corrección o ajuste posterior se atiende bajo demanda con costo por hora de trabajo.
+- El plan de mantenimiento se puede contratar en cualquier momento.
+
+
+## Políticas y Términos Clave
+
+### Propiedad del Software
+- Al finalizar el pago completo, el código fuente es 100% propiedad del cliente.
+- Perla Solutions no retiene ningún derecho sobre el trabajo creado.
+- Formato de entrega: repositorio Git privado en GitHub o GitLab con acceso completo y todos los permisos de propietario, incluyendo el historial completo de cambios. También se puede proporcionar copia en ZIP si se prefiere.
+- Código limpio, bien estructurado y documentado siguiendo las convenciones estándar de la industria, para que cualquier programador calificado pueda entenderlo, mantenerlo o extenderlo sin depender de Perla Solutions.
+
+### Confidencialidad y NDA
+- Acuerdo de confidencialidad (NDA) disponible para proteger la idea del cliente incluso antes de la primera consulta, si así lo desea.
+- La discreción sobre los proyectos e ideas de los clientes es parte de los valores fundamentales.
+
+### Cancelación
+- El anticipo del 50% no es reembolsable, ya que cubre el trabajo ya realizado y el tiempo reservado del equipo.
+- El trabajo completado hasta el momento de cancelación se entrega al cliente en el estado en que se encuentre.
+- Las condiciones exactas de cancelación están detalladas en el contrato firmado al inicio.
+
+### Costos Ocultos
+- No existen costos ocultos. En la propuesta se detallan todos los costos: desarrollo, hosting, dominio, licencias de servicios de terceros (IA, APIs, etc.) y cualquier otro gasto aplicable.
+- Si surge algo inesperado durante el desarrollo, se comunica de inmediato antes de proceder. Nada se cobra sin conocimiento y aprobación previa del cliente.
+- Nota: Hosting y dominio son servicios de terceros con costo anual independiente del desarrollo. Algunos servicios integrados (modelos de IA, API de WhatsApp Business, email transaccional) tienen sus propios costos mensuales o anuales que también se informan antes de firmar.
+- El desarrollo en sí es pago único.
+
+### Contrato
+- Siempre se firma un contrato simple antes de comenzar. Especifica el alcance exacto, plazos, precio y condiciones de ambas partes. Protege al cliente y a Perla Solutions.
+
+### Responsabilidad sobre el Contenido
+- La responsabilidad técnica es de Perla Solutions. El contenido publicado (textos, imágenes, información comercial) es responsabilidad del cliente, quien lo aprueba antes de salir en línea.
+- Perla Solutions no publica contenido que viole derechos de autor o normas legales evidentes; si detecta algo cuestionable, lo señala antes de proceder.
+
+### Portabilidad y Cambio de Proveedor
+- El cliente puede migrar su proyecto a otro proveedor cuando quiera, sin restricciones. Al finalizar, tiene el código fuente completo, acceso al repositorio y toda la documentación. Otro programador calificado puede continuar el trabajo.
+- Si Perla Solutions cerrara: el software seguiría siendo del cliente, funcionando en su servidor, y cualquier programador calificado podría continuar con él. El cliente no depende de la existencia de Perla Solutions para que su sistema funcione.
+
+### Conflicto de Intereses
+- En la mayoría de los casos no hay conflicto por trabajar con negocios del mismo sector, ya que cada solución es específica para cada negocio y no se comparte información entre clientes.
+- Si el caso es muy sensible (dos competidores directos en el mismo mercado y zona geográfica), se conversa con transparencia antes de comprometerse.
+
+### Protección de Datos
+- Se aplican las mejores prácticas internacionales: solo se recopilan datos necesarios, accesos restringidos y auditados, datos sensibles cifrados, políticas de privacidad incluidas en los proyectos.
+- Se siguen los principios fundamentales del GDPR europeo aunque Cuba no tenga una normativa tan detallada.
+
+
+## Tecnologías Utilizadas
+
+### Frontend
+- React y Next.js (principales). Se eligen por ser las herramientas más maduras, populares y bien mantenidas para el desarrollo web moderno. Next.js ofrece ventajas importantes de SEO y excelente rendimiento.
+- Si el cliente tiene un requerimiento específico que justifique otra tecnología, se evalúa sin problema.
+
+### Backend
+- Node.js: para aplicaciones con alta concurrencia, APIs en tiempo real o cuando se mantiene JavaScript en toda la pila.
+- Python: preferencia cuando el proyecto involucra Inteligencia Artificial, análisis de datos o integraciones complejas.
+
+### Bases de Datos
+- PostgreSQL (preferida): robusta, con excelente rendimiento y características avanzadas.
+- MySQL: para proyectos que lo requieran.
+- MongoDB: para casos donde una base de datos NoSQL tiene más sentido (datos no estructurados, alta flexibilidad de esquema).
+- La elección siempre se hace pensando en qué es mejor para el caso específico.
+
+### Infraestructura y Hosting
+- Vercel, Railway, servidores VPS dedicados.
+- Se puede trabajar sobre hosting ya contratado por el cliente (cPanel, zona DNS o similar).
+- Todos los proyectos incluyen certificado SSL (HTTPS) sin costo adicional.
+
+### Inteligencia Artificial
+- Claude de Anthropic y GPT de OpenAI, según el caso de uso y presupuesto.
+- No se desarrollan modelos propios desde cero.
+- Los chatbots se entrenan específicamente con la información del negocio del cliente.
+
+### Seguridad
+- Autenticación segura con tokens JWT.
+- Cifrado de datos sensibles.
+- Protección contra inyecciones SQL y ataques XSS.
+- Validación estricta de entradas.
+- Control de acceso por roles.
+- Certificado SSL en todos los proyectos.
+- Backups periódicos: mínimo semanal; diarios para proyectos críticos (tiendas online, sistemas de pedidos activos).
+
+### Rendimiento y SEO
+- Optimización y compresión de imágenes.
+- Caché para recursos estáticos.
+- Carga diferida (lazy loading).
+- Minificación del código.
+- Generación estática y renderizado en servidor (Next.js).
+- Hosting con buena latencia para la región de los usuarios.
+- SEO básico integrado en todos los sitios web. Estrategia SEO profunda y continua disponible como servicio adicional.
+- Accesibilidad web: HTML semántico, contraste de colores adecuado, textos alternativos, navegación compatible con teclado. WCAG estricto disponible como requerimiento explícito.
+
+### Analítica
+- Google Analytics 4, Plausible o Matomo según preferencia del cliente.
+- Configuración de Google Business Profile para presencia en Google Maps y búsquedas locales.
+
+### Integraciones Posibles
+- Pasarelas de pago cubanas: EnZona, Transfermóvil.
+- Pasarelas internacionales: PayPal, Stripe (según disponibilidad geográfica y requerimientos legales).
+- Redes sociales: botones de seguimiento, feeds de Instagram, píxel de Facebook, y más.
+- CRMs modernos (HubSpot, Zoho, Salesforce, etc.) mediante API, si está disponible.
+- Dominio propio (.com, .cu u otros).
+- Sistemas de analítica y monitoreo.
+- Migración de datos desde Excel, bases de datos anteriores u otros sistemas (puede tener costo adicional según volumen y complejidad).
+
+### Panel de Administración (CMS)
+- No todos los proyectos lo incluyen por defecto.
+- Landing pages y proyectos sencillos generalmente no lo requieren.
+- Páginas web completas, catálogos y proyectos con contenido dinámico sí suelen incluirlo.
+- Si el cliente quiere poder actualizar el contenido por su cuenta, se incluye en el alcance.
+
+
+## Programa de Referidos
+
+- Descripción: Convierte tus contactos en ingresos. Refiere clientes a Perla Solutions y gana comisiones por cada proyecto cerrado.
+- Comisión: Hasta el 20% del valor del contrato (el porcentaje exacto se acuerda antes de comenzar a referir).
+- Sin límite de referidos: Se puede referir a tantas personas como se quiera.
+- Comisiones escalables según el valor de los proyectos referidos.
+- Condición de pago: La comisión se paga una vez que el cliente referido ha realizado al menos el pago del anticipo (ha contratado efectivamente un proyecto).
+- Si el referido no contrata: No hay comisión, pero tampoco ninguna penalización. Se puede seguir refiriendo con total confianza.
+- El programa es justo y transparente. Es la forma de Perla Solutions de agradecer a quienes confían en su trabajo y lo recomiendan.
+- Sin inversión, sin riesgo: solo oportunidades.
+
+
+## Preguntas Frecuentes Clave
+
+### Sobre el negocio
+- **¿Trabajan solo en Cuba o también en el extranjero?** Trabajan con negocios en toda Cuba y también con clientes en el extranjero. La gran mayoría del trabajo es remoto.
+- **¿Cómo sé qué servicio necesito?** En la consulta inicial gratuita se analiza el negocio, objetivos y necesidades actuales, y se recomienda la solución más adecuada. Sin tecnicismos, sin presiones.
+- **¿Necesito saber de tecnología?** Para nada. Se explica todo en lenguaje sencillo. Si no se sabe qué es un dominio, un hosting o una API, no es problema: Perla Solutions se ocupa y explica solo lo necesario para usar el resultado final.
+- **¿Qué necesito para empezar?** Contar sobre el negocio: qué hace, qué quiere mejorar, qué objetivo tiene. No se necesitan conocimientos técnicos ni nada preparado de antemano. Si tiene logo o colores de marca, bien; si no, también se puede ayudar con eso.
+
+### Sobre los proyectos
+- **¿Puedo actualizar yo mismo el contenido de la web?** Depende del proyecto. Si incluye panel de administración (CMS), sí se puede sin conocimientos técnicos. Si no incluye CMS, los cambios se gestionan dentro del plan de mantenimiento.
+- **¿El presupuesto que entregan es detallado y sin compromiso?** Sí, completamente. La propuesta especifica exactamente qué está incluido, qué no está incluido, plazos y condiciones. El cliente no tiene que aceptarla ni explicar por qué si decide no seguir.
+- **¿Pueden trabajar sobre mi hosting y dominio ya contratados?** Sí, sin ningún problema. Solo se necesita acceso a los paneles de administración.
+- **¿Web estática o dinámica?** Depende de las necesidades. Web estática: carga más rápido, más segura, más económica (ideal si el contenido cambia poco). Web dinámica: necesaria para contenido frecuentemente cambiante, usuarios registrados, formularios complejos o funcionalidades interactivas. Se recomienda en la consulta según el caso específico.
+- **¿Pueden integrar mi CRM actual?** Depende del sistema. Si tiene API disponible (la mayoría de CRMs modernos), generalmente se puede integrar. Se evalúa en la fase de análisis.
+- **¿Tienen capacidad para proyectos muy grandes?** Sí, con transparencia: son un equipo joven y enfocado. Para proyectos de gran envergadura se evalúa el alcance en detalle. Si supera la capacidad actual, se dice con honestidad y se asesora sobre cómo dividirlo en fases manejables.
+- **¿Tienen clientes anteriores que puedan dar referencias?** Sí. Se comparten referencias de clientes anteriores o actuales (con su consentimiento) al solicitar una propuesta. También se presentan ejemplos del portafolio en la consulta inicial.
+
+### Sobre pagos y contratos
+- **¿Emiten factura o contrato formal?** Sí siempre. Contrato simple al inicio y comprobantes de cada pago.
+- **¿Hay descuentos por contratar varios servicios?** Sí. Si se contratan servicios con sinergia entre sí, se ofrecen descuentos sobre el precio individual de cada uno.
+- **¿El precio del proyecto incluye hosting y dominio?** En la mayoría de los casos, no. El precio cubre el desarrollo. Hosting y dominio son costos de terceros que se informan antes de firmar.
+
+
+## Frases y Slogans Oficiales
+- "Tu negocio merece crecer. Nosotros lo hacemos posible."
+- "Tecnología a tu medida, resultados que se notan."
+- "No vendemos software. Vendemos soluciones."
+- "Más clientes, menos trabajo manual. Así es Perla Solutions."
+- "Haz crecer tu negocio sin complicarte la vida."
+- "Moderniza tu negocio hoy. El futuro no espera."
+- "Del papel al mundo digital, estamos contigo en cada paso."
+- "Perla Solutions: donde la tecnología y los negocios se encuentran."
