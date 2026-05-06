@@ -4,8 +4,8 @@
 - Nombre: Perla Solutions
 - Eslogan: Tecnología que impulsa tu negocio
 - Ubicación: Cienfuegos, Cuba (base principal). Trabajo 100% remoto disponible para toda Cuba y el extranjero.
-- Tipo de empresa: Tecnología y desarrollo de software
-- Descripción: Empresa joven formada por programadores y diseñadores con experiencia real. Ayudamos a negocios locales a crecer mediante soluciones digitales, páginas web y automatización con Inteligencia Artificial. Trabajamos de forma cercana, explicando cada paso en lenguaje simple, sin tecnicismos, porque entendemos que la mayoría de los dueños de negocios no son técnicos.
+- Tipo de empresa: Tecnología, desarrollo de software y automatizaciones
+- Descripción: Empresa formada por programadores y diseñadores con experiencia real. Ayudamos a negocios locales a crecer mediante soluciones digitales, páginas web y automatización con Inteligencia Artificial. Trabajamos de forma cercana, explicando cada paso en lenguaje simple, sin tecnicismos, porque entendemos que la mayoría de los dueños de negocios no son técnicos.
 - Alcance geográfico: Cienfuegos, toda Cuba y clientes internacionales. La ubicación nunca es una barrera.
 
 ## Misión, Visión y Valores
@@ -84,10 +84,9 @@
    - Incluye: respuestas a preguntas frecuentes, información sobre horarios, precios y servicios, captura de datos de clientes interesados, disponible 24/7, integración con WhatsApp, Instagram o web.
    - Beneficio clave: Ningún cliente sin respuesta, aunque el negocio esté ocupado o fuera de horario.
    - Aclaración importante: El chatbot NO reemplaza totalmente a una persona. Gestiona automáticamente lo repetitivo y captura datos; para situaciones complejas o personales, notifica al dueño para que continúe la conversación. Es un asistente que libera tiempo, no un sustituto total.
-   - Modelos de IA usados: Claude (Anthropic) o GPT (OpenAI) según el caso de uso y presupuesto. Se entrena específicamente con la información del negocio del cliente.
+   - Modelos de IA usados: Deepseek, Claude (Anthropic) o GPT (OpenAI) según el caso de uso y presupuesto. Se entrena específicamente con la información del negocio del cliente.
    - Idioma: Funciona perfectamente en español, incluyendo el español cubano y sus modismos. Durante la configuración se adapta al vocabulario y tono del negocio.
    - Integración WhatsApp: Puede trabajar con la API oficial de WhatsApp Business (Meta), más estable y segura, o con soluciones alternativas de menor costo para negocios que recién empiezan. Las diferencias y costos se explican en la propuesta.
-   - Plazo estimado: 1 a 3 meses (proyectos avanzados).
 
 8. **Respuestas Automáticas**
    - Descripción: Cuando alguien escribe, recibe al instante una respuesta profesional con información útil mientras el negocio se organiza para atenderle.
@@ -172,16 +171,16 @@
 
 
 ## Medios de Pago
-- Efectivo (solo en Cuba)
+- Efectivo, puede ser tanto CUP como USD (solo en Cuba)
 - Transferencia bancaria
 - Criptomonedas (principalmente USDT, para clientes internacionales o preferencia local)
 - Para clientes internacionales: dólares o criptomonedas estables coordinadas según conveniencia de ambas partes.
 - Se emite contrato formal y comprobante de cada pago recibido, independientemente del método elegido.
 
 ## Esquema de Pagos
-- Proyectos estándar: 50% anticipo al inicio → 50% contra entrega final aprobada por el cliente.
-- Proyectos largos y complejos: 40% inicio → 30% en hito de avance → 30% entrega final.
-- Pago 100% contra entrega: No se ofrece esta modalidad, porque implicaría que Perla Solutions asuma todo el riesgo económico. El esquema 50/50 protege al cliente (paga el resto solo al aprobar el resultado) y permite trabajar con la seguridad necesaria.
+- Proyectos largos y complejos: 50% anticipo al inicio → 50% contra entrega final aprobada por el cliente.
+- Proyectos estándar: 40% inicio → 30% en hito de avance → 30% entrega final.
+- Pago 100% contra entrega: No se ofrece esta modalidad, porque implicaría que Perla Solutions asuma todo el riesgo económico.
 - Atrasos en pagos: Si hay un atraso, se pausa el trabajo. Se maneja con comunicación directa y buena fe. Lo más importante es avisar antes de que ocurra para coordinar una solución.
 - Clientes con historial de proyectos: Se pueden evaluar condiciones especiales.
 - Nota: El anticipo cubre el trabajo ya realizado y el tiempo reservado del equipo. Si el cliente cancela el proyecto, el anticipo no es reembolsable; el trabajo completado se entrega al cliente en el estado en que se encuentre.
@@ -211,7 +210,7 @@
 ## Plazos de Entrega por Tipo de Proyecto
 - Landing Page: 5 a 7 días hábiles.
 - Página Web Profesional: 2 a 4 semanas.
-- Chatbot con IA: 1 a 3 meses (proyectos avanzados).
+- Chatbot con IA: 1 a 2 meses (proyectos avanzados).
 - Software a Medida y Sistemas de Gestión: 1 a 3 meses.
 - Los plazos se especifican en cada propuesta. Incluyen márgenes de contingencia para la realidad cubana (cortes eléctricos, conectividad).
 - Si el cliente se atrasa en entregar materiales o feedback, el plazo se ajusta proporcionalmente. Se recomienda avisar con anticipación.
@@ -348,7 +347,7 @@
 - Configuración de Google Business Profile para presencia en Google Maps y búsquedas locales.
 
 ### Integraciones Posibles
-- Pasarelas de pago cubanas: EnZona, Transfermóvil.
+- Pasarelas de pago cubanas: EnZona, Transfermóvil (el cliente debe solicitar los permisos pertinentes para el uso de dichos servicios).
 - Pasarelas internacionales: PayPal, Stripe (según disponibilidad geográfica y requerimientos legales).
 - Redes sociales: botones de seguimiento, feeds de Instagram, píxel de Facebook, y más.
 - CRMs modernos (HubSpot, Zoho, Salesforce, etc.) mediante API, si está disponible.

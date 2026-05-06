@@ -109,6 +109,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = DEBUG
 
 CORS_ALLOWED_ORIGINS = [
+    "https://perla-solutions.com",
+    "https://www.perla-solutions.com",
     "https://perla-solutions.vercel.app",
     "https://www.perla-solutions.vercel.app",
     "http://localhost:5173",
