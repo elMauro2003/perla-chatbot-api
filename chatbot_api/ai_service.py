@@ -2,11 +2,11 @@ import os
 from typing import Annotated
 from typing_extensions import TypedDict
 from dotenv import load_dotenv
+from openai import OpenAI
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 import logging
+import json
 
 load_dotenv()
 
@@ -29,19 +29,19 @@ class ChatbotService:
         self.knowledge_file = knowledge_file
         self.full_context = self._load_knowledge()
         
-        self.llm = ChatOpenAI(
-            model="deepseek/deepseek-chat",
-            openai_api_key=os.getenv("OPENROUTER_API_KEY"),
+        # ⭐ Cliente OpenAI directo (no LangChain) para soportar reasoning
+        self.client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            temperature=0,        # CERO creatividad pa q no c coma tokens 
-            max_tokens=800,       
+            api_key=os.getenv("OPENROUTER_API_KEY"),
         )
         
+        self.model = "tencent/hy3-preview:free"
+        
         self.graph = self._build_graph()
-        logger.info("✅ ChatbotService inicializado correctamente :)")
+        logger.info("✅ ChatbotService inicializado con Tencent HY3 + Reasoning")
     
     def _load_knowledge(self) -> str:
-        """ Carga TODO el archivo de conocimiento para que ande en full contexto dp los tokens asere :( """
+        """Carga TODO el archivo de conocimiento"""
         try:
             possible_paths = [
                 self.knowledge_file,
@@ -59,7 +59,7 @@ class ChatbotService:
                     logger.info(f"📊 Tamaño: {len(content)} caracteres, ~{token_estimate:.0f} tokens")
                     
                     if token_estimate > 6000:
-                        logger.warning("⚠️ El archivo es grande. Podría exceder límites del modelo gratuito")
+                        logger.warning("⚠️ El archivo es grande para modelo gratuito")
                     
                     return content
             
@@ -71,7 +71,6 @@ class ChatbotService:
             return self._get_default_knowledge()
     
     def _get_default_knowledge(self) -> str:
-        """Conocimiento por defecto (solo emergencia)"""
         return """## PERLA SOLUTIONS
 - WhatsApp: +53 58521602
 - Consulta inicial gratuita
@@ -100,10 +99,7 @@ class ChatbotService:
     
     def _generate_response(self, state: ChatState) -> ChatState:
         """
-        Genera respuesta usando un prompt diseñado para:
-        1. Usar SOLO información del contexto
-        2. Auto-verificar su propia respuesta
-        3. Ser honesto cuando no sabe algo
+        Genera respuesta usando Tencent HY3 con razonamiento.
         """
         
         system_prompt = f"""Eres el asistente virtual oficial de Perla Solutions, una empresa de tecnología y desarrollo de software en Cienfuegos, Cuba.
@@ -122,21 +118,17 @@ class ChatbotService:
         3. SI LA INFORMACIÓN NO EXISTE:
            - Di EXACTAMENTE: "Gracias por tu interés. Actualmente no tengo esa información en mi base de conocimiento. ¿Te gustaría que te contacte un miembro de nuestro equipo para ayudarte personalmente?"
            - NO inventes nada
-           - NO hagas suposiciones
 
         4. NUNCA USES FRASES COMO:
            - "Tal vez", "probablemente", "creo que", "posiblemente"
-           - "Según nuestro sitio web" (no tienes acceso a internet)
-           - "Deberías consultar con..." seguido de información inventada
 
         5. SI EL CLIENTE PREGUNTA POR PRECIOS:
            - Indica que los precios son personalizados
            - Menciona que hay una consulta inicial gratuita
-           - NO des precios que no estén explícitamente en la información
 
         6. SIEMPRE que sea relevante, recuerda:
-           - Ofrecemos consulta inicial gratuita sin compromiso
-           - Nuestro WhatsApp es +53 58521602
+           - WhatsApp: +53 58521602
+           - Consulta inicial gratuita sin compromiso
            - Trabajamos de forma remota con toda Cuba y el extranjero
 
         ========================================
@@ -144,32 +136,52 @@ class ChatbotService:
         ========================================
         {state['full_context']}
         ========================================
-
-        ANTES DE RESPONDER, VERIFICA MENTALMENTE:
-        ¿Está esta información en el documento de arriba?
-        - SI → Responde con confianza
-        - NO → Usa la frase de "no tengo esa información"
         """
 
-        # Construir mensajes
-        messages = [SystemMessage(content=system_prompt)]
+        # Construir mensajes para la API
+        api_messages = [
+            {"role": "system", "content": system_prompt}
+        ]
         
-        # Agregar historial reciente (últimos 4 mensajes) si existe
+        # Agregar historial reciente
         if state.get("messages") and len(state["messages"]) > 0:
-            messages.extend(state["messages"][-4:])
+            for msg in state["messages"][-4:]:
+                if hasattr(msg, 'type'):
+                    # Mensaje de LangChain
+                    role = "assistant" if msg.type == "ai" else "user"
+                    content = msg.content
+                elif isinstance(msg, dict):
+                    role = msg.get("role", "user")
+                    content = msg.get("content", "")
+                else:
+                    continue
+                
+                api_messages.append({"role": role, "content": content})
         
         # Agregar pregunta actual
-        messages.append(HumanMessage(content=state["user_input"]))
+        api_messages.append({"role": "user", "content": state["user_input"]})
         
         try:
-            logger.info("🤖 Llamando al LLM...")
-            response = self.llm.invoke(messages)
-            state["bot_response"] = response.content
+            logger.info(f"🤖 Llamando a {self.model} con razonamiento...")
             
-            # Auto-evaluar la confianza basado en la respuesta
-            response_lower = response.content.lower()
+            # ⭐ Llamada con reasoning habilitado
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=api_messages,
+                extra_body={"reasoning": {"enabled": True}}
+            )
             
-            # Indicadores de que el LLM no encontró la información
+            # Extraer respuesta
+            assistant_message = response.choices[0].message
+            state["bot_response"] = assistant_message.content or ""
+            
+            # Log del razonamiento (opcional, para debug)
+            if hasattr(assistant_message, 'reasoning_details') and assistant_message.reasoning_details:
+                logger.info(f"🧠 Razonamiento del modelo: {str(assistant_message.reasoning_details)[:200]}...")
+            
+            # Auto-evaluar confianza
+            response_lower = state["bot_response"].lower()
+            
             no_info_phrases = [
                 "no tengo esa información",
                 "no encuentro",
@@ -178,7 +190,6 @@ class ChatbotService:
                 "actualmente no tengo"
             ]
             
-            # Indicadores de incertidumbre (alucinación potencial)
             uncertainty_phrases = [
                 "tal vez",
                 "probablemente",
@@ -188,26 +199,25 @@ class ChatbotService:
             ]
             
             if any(phrase in response_lower for phrase in no_info_phrases):
-                state["confidence_score"] = 0.9  # Es válido decir "no sé"
+                state["confidence_score"] = 0.9
                 state["needs_human"] = True
                 logger.info("ℹ️ El LLM indicó que no tiene la información")
             elif any(phrase in response_lower for phrase in uncertainty_phrases):
-                state["confidence_score"] = 0.3  # Baja confianza, posible alucinación
+                state["confidence_score"] = 0.3
                 state["needs_human"] = True
-                logger.warning("⚠️ Detectada posible alucinación en la respuesta")
+                logger.warning("⚠️ Detectada posible alucinación")
             else:
-                state["confidence_score"] = 0.9  # Alta confianza
+                state["confidence_score"] = 0.9
                 state["needs_human"] = False
                 logger.info("✅ Respuesta generada con alta confianza")
             
-            logger.info(f"📤 Respuesta ({len(response.content)} caracteres): {response.content[:150]}...")
+            logger.info(f"📤 Respuesta ({len(state['bot_response'])} caracteres): {state['bot_response'][:150]}...")
             
         except Exception as e:
             logger.error(f"❌ Error generando respuesta: {e}")
             state["bot_response"] = (
                 "Lo siento, ocurrió un error técnico al procesar tu consulta. "
-                "Por favor, contáctanos directamente por WhatsApp al +53 58521602 "
-                "y te atenderemos personalmente."
+                "Por favor, contáctanos directamente por WhatsApp al +53 58521602."
             )
             state["confidence_score"] = 0.0
             state["needs_human"] = True
@@ -235,7 +245,8 @@ class ChatbotService:
                 "message": result["bot_response"],
                 "needs_human": result.get("needs_human", False),
                 "confidence": result.get("confidence_score", 1.0),
-                "method": "direct_context"
+                "method": "direct_context",
+                "model": self.model
             }
             
             logger.info(f"✅ Respuesta exitosa (confianza: {response_data['confidence']})")
@@ -247,13 +258,12 @@ class ChatbotService:
                 "success": False,
                 "message": (
                     "Lo siento, ocurrió un error inesperado. "
-                    "Por favor, contáctanos por WhatsApp al +53 58521602 "
-                    "para recibir atención personalizada."
+                    "Por favor, contáctanos por WhatsApp al +53 58521602."
                 ),
                 "needs_human": True,
                 "confidence": 0.0,
                 "method": "error_fallback"
             }
 
-# Instancia global ;)
+# Instancia global
 chatbot_service = ChatbotService()
