@@ -35,7 +35,7 @@ class ChatbotService:
             api_key=os.getenv("OPENROUTER_API_KEY"),
         )
         
-        self.model = "tencent/hy3-preview:free"
+        self.model = "openai/gpt-oss-120b:free"
         
         self.graph = self._build_graph()
         logger.info("✅ ChatbotService inicializado con Tencent HY3 + Reasoning")
